@@ -772,6 +772,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
+"@patternfly/patternfly@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@patternfly/patternfly/-/patternfly-2.2.0.tgz#f092d8b50be3eb7d10e7fc7f45a5771171000c63"
+  integrity sha512-7i9RLEZsnqK8qA5U5xBbh+kEmnRJv1HnU4brITJ+H5BwmS3KnI1dOMLQCzaWMst7d5oBzsM7Vf7LP2XrxyB1iQ==
+
 "@patternfly/react-core@^2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@patternfly/react-core/-/react-core-2.1.4.tgz#be16ae1928d694eb1408f585542471abf3c147f9"
@@ -791,6 +796,11 @@
   resolved "https://registry.yarnpkg.com/@patternfly/react-icons/-/react-icons-3.0.1.tgz#47d0184f40686f3fb6a0b9b0e835013d95320f06"
   integrity sha512-A/ACY0zCpIvNR8bzR21hKghqFTkFNIUX4pksDoMH8MY2tdCkJVZwkGAVy9jQ98H9DnyMnaNDd4KZuaoyicmlug==
 
+"@patternfly/react-icons@^3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-icons/-/react-icons-3.7.1.tgz#86fe0b75e871ddaeefb21c2d09f520eb6e88f1ea"
+  integrity sha512-Q7MDYKy+/4SjMR4UVK35Dg1srE2i4zwFiMA8UpuKqfqPaE5DsfpJALLeedxIiuMjhVC2XwoEwiQQkNczB2ejQQ==
+
 "@patternfly/react-styles@^2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@patternfly/react-styles/-/react-styles-2.3.2.tgz#b2dd4d0e202bbdda7ceaceb6beced9c1419d2d87"
@@ -803,6 +813,24 @@
     cssstyle "^0.3.1"
     emotion "^9.2.6"
     emotion-server "^9.2.6"
+    fbjs-scripts "^0.8.3"
+    fs-extra "^6.0.1"
+    jsdom "^11.11.0"
+    relative "^3.0.2"
+    resolve-from "^4.0.0"
+
+"@patternfly/react-styles@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-styles/-/react-styles-2.4.1.tgz#812c5ebeaf91ddc487244438073abf82eb87315e"
+  integrity sha512-3FYj7JvUldn+Ya1LPw4lDTsE8iSA3sJUnEszR4/0w1ODBKta2yq/jyr/m7L1nQ43RfZCiszcbaPpVDFdqbVtHg==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0-beta.48"
+    camel-case "^3.0.0"
+    css "^2.2.3"
+    cssom "^0.3.4"
+    cssstyle "^0.3.1"
+    emotion "^9.2.9"
+    emotion-server "^9.2.9"
     fbjs-scripts "^0.8.3"
     fs-extra "^6.0.1"
     jsdom "^11.11.0"
@@ -3408,7 +3436,7 @@ emojis-list@^2.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
   integrity sha1-TapNnbAPmBmIDHn6RXrlsJof04k=
 
-emotion-server@^9.2.6:
+emotion-server@^9.2.6, emotion-server@^9.2.9:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/emotion-server/-/emotion-server-9.2.12.tgz#aaaaa04843108943d1ce5a796e0bc40b06a3223e"
   integrity sha512-Bhjdl7eNoIeiAVa2QPP5d+1nP/31SiO/K1P/qI9cdXCydg91NwGYmteqhhge8u7PF8fLGTEVQfcPwj21815eBw==
@@ -3423,7 +3451,7 @@ emotion@^10.0.6:
     babel-plugin-emotion "^10.0.7"
     create-emotion "^10.0.7"
 
-emotion@^9.2.6:
+emotion@^9.2.6, emotion@^9.2.9:
   version "9.2.12"
   resolved "https://registry.yarnpkg.com/emotion/-/emotion-9.2.12.tgz#53925aaa005614e65c6e43db8243c843574d1ea9"
   integrity sha512-hcx7jppaI8VoXxIWEhxpDW7I+B4kq9RNzQLmsrF6LY8BGKqe2N+gFAQr0EfuFucFlPs2A9HM4+xNj4NeqEWIOQ==
@@ -3547,6 +3575,11 @@ es-to-primitive@^1.2.0:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
+
+es6-promise@^4.2.6:
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.6.tgz#b685edd8258886365ea62b57d30de28fadcd974f"
+  integrity sha512-aRVgGdnmW2OiySVPUC9e6m+plolMAJKjZnQlCwNSuK5yQ0JN61DZSO1X1Ufd1foqWRAlig0rhduTCHe7sVtK5Q==
 
 escape-html@~1.0.3:
   version "1.0.3"
